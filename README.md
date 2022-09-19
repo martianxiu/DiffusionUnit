@@ -3,6 +3,6 @@ Created by: Haoyi Xiu, Xin Liu, Weimin Wang, Kyoung-Sook Kim, Takayuki Shinohara
 
 <!-- ![concept](figures/concept.jpeg) -->
 
-<img src="figures/concept.jpeg" alt="concept" width="200"/>
+<img src="figures/concept.jpeg" alt="concept" width="400"/>
 
 Our code is released under MIT License (see LICENSE file for details).
