@@ -6,6 +6,7 @@ Created by: Haoyi Xiu, Xin Liu, Weimin Wang, Kyoung-Sook Kim, Takayuki Shinohara
 <p align='center'>
 <img src="figures/concept.jpeg" alt="concept" width="300"/>
 
+Code coming soon.
 
 Our code is released under MIT License (see LICENSE file for details).
 
