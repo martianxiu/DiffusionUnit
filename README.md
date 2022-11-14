@@ -11,6 +11,8 @@ This repository contains the implementation of [our paper](https://arxiv.org/abs
 
 
 ## Installation
+The code has been tested with Ubuntu 16.04.6, python 3.7, CUDA 11.1.1
+
 We use anaconda to create a virtual environment. 
 ```
 conda create -n diffusion_unit python=3.7
