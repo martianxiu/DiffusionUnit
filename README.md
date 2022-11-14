@@ -40,6 +40,16 @@ sh start_training.sh
 ### Testing
 sh predict.sh
 
+## Citation
+If you find our work useful, please consider citing:
+```
+@article{xiu2022interpretable,
+  title={Interpretable Edge Enhancement and Suppression Learning for 3D Point Cloud Segmentation},
+  author={Xiu, Haoyi and Liu, Xin and Wang, Weimin and Kim, Kyoung-Sook and Shinohara, Takayuki and Chang, Qiong and Matsuoka, Masashi},
+  journal={arXiv preprint arXiv:2209.09483},
+  year={2022}
+}
+```
 ## License
 Our code is released under MIT License (see LICENSE file for details).
 
