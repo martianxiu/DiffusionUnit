@@ -121,33 +121,32 @@ class PartsegNetOnehot(nn.Module):
             nn.Linear(d_out, n_cls)
         )        
     
-    def forward(self, p, x, o, one_hot, save_path=None):
+    def forward(self, p, x, o, one_hot):
         # p, x, o, one_hot: (n,3), (n,c), (b), (b,16)
         p_from_encoder = []
         x_from_encoder = []
         o_from_encoder = []
-        idx = None
 
         # encoder
         for block_i, block in enumerate(self.encoder_blocks):
-            # idx = None
+           
             if block_i in self.encoder_skips:
                 p_from_encoder.append(p) 
                 x_from_encoder.append(x)
                 o_from_encoder.append(o)
-            p, x, o, idx = block(p, x, o, idx, save_path=save_path)
+            p, x, o = block(p, x, o)
 
                      
         # decoder
         for block_i, block in enumerate(self.decoder_blocks):
-            # idx = None
+           
             if block_i in self.decoder_upsample:
                 p_dense = p_from_encoder.pop()
                 x_dense = x_from_encoder.pop()
                 o_dense = o_from_encoder.pop()
-                p, x, o, idx = block(p_dense, x_dense, o_dense, p, x, o, idx, save_path=save_path) 
+                p, x, o = block(p_dense, x_dense, o_dense, p, x, o) 
             else:
-                p, x, o, idx = block(p, x, o, idx, save_path=save_path) 
+                p, x, o = block(p, x, o) 
             
         # concat one_hot (b,16) to each cloud.
         x = torch.cat([x, one_hot], dim=1) # concat
