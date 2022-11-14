@@ -17,7 +17,7 @@ conda create -n diffusion_unit python=3.7
 conda activate diffusion_unit
 ```
 
-Install libraries
+Install libraries:
 ```
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 conda install -c anaconda h5py pyyaml -y
@@ -25,7 +25,7 @@ conda install -c conda-forge sharedarray tensorboardx -y
 pip install numpy --upgrade
 ```
 
-Following [Point Transformer repo](https://github.com/POSTECH-CVLab/point-transformer) to install pointops 
+Following [Point Transformer repo](https://github.com/POSTECH-CVLab/point-transformer) to install pointops: 
 
 ```
 cd lib/pointops
@@ -40,6 +40,6 @@ sh start_training.sh
 ### Testing
 sh predict.sh
 
-
+## License
 Our code is released under MIT License (see LICENSE file for details).
 
