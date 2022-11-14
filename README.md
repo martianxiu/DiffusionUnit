@@ -25,8 +25,8 @@ conda install -c conda-forge sharedarray tensorboardx -y
 pip install numpy --upgrade
 ```
 
-Following [Point Transformer repo] to install pointops 
-(https://github.com/POSTECH-CVLab/point-transformer)
+Following [Point Transformer repo](https://github.com/POSTECH-CVLab/point-transformer) to install pointops 
+
 ```
 cd lib/pointops
 python3 setup.py install
