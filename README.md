@@ -7,8 +7,8 @@ Created by: Haoyi Xiu, Xin Liu, Weimin Wang, Kyoung-Sook Kim, Takayuki Shinohara
 <img src="figures/concept.jpeg" alt="concept" width="300"/>
 
 ## Introduction
-This repository contains the implementation of [our paper]
-(https://arxiv.org/abs/2209.09483)
+This repository contains the implementation of [our paper](https://arxiv.org/abs/2209.09483)
+
 
 ## Installation
 We use anaconda for creating virtual environment. 
@@ -32,8 +32,8 @@ cd lib/pointops
 python3 setup.py install
 ```
 ## Scene segmentation
-Download [dataset] and put the uncompressed data to DiffusionUnit/s3dis/dataset/s3dis/
-(https://drive.google.com/uc?export=download&id=1KUxWagmEWnvMhEb4FRwq2Mj0aa3U3xUf)
+Download [dataset](https://drive.google.com/uc?export=download&id=1KUxWagmEWnvMhEb4FRwq2Mj0aa3U3xUf) and put the uncompressed data to DiffusionUnit/s3dis/dataset/s3dis/
+
 
 ### Training
 sh start_training.sh
