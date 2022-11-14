@@ -55,3 +55,5 @@ If you find our work useful, please consider citing:
 ## License
 Our code is released under MIT License (see LICENSE file for details).
 
+## Acknowledgment
+This repo is based on/inspired by the great works of [Point Transformer](https://github.com/POSTECH-CVLab/point-transformer) and [KPConv](https://github.com/POSTECH-CVLab/point-transformer)
