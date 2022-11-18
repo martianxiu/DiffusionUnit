@@ -57,4 +57,4 @@ If you find our work useful, please consider citing:
 Our code is released under MIT License (see LICENSE file for details).
 
 ## Acknowledgment
-This repo is based on/inspired by the great works of [Point Transformer](https://github.com/POSTECH-CVLab/point-transformer), [KPConv](https://github.com/POSTECH-CVLab/point-transformer), and [dgcnn.pytorch](https://github.com/antao97/dgcnn.pytorch).
+This repo is based on&inspired by the great works of [Point Transformer](https://github.com/POSTECH-CVLab/point-transformer), [KPConv](https://github.com/POSTECH-CVLab/point-transformer), and [dgcnn.pytorch](https://github.com/antao97/dgcnn.pytorch).
