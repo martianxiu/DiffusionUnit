@@ -1,14 +1,12 @@
 # Interpretable Edge Enhancement and Suppression Learning for 3D Point Cloud Segmentation
 Created by: Haoyi Xiu, Xin Liu, Weimin Wang, Kyoung-Sook Kim, Takayuki Shinohara, Qiong Chang, and Masashi Matsuoka
 
-
 <!-- ![concept](figures/concept.jpeg) -->
 <p align='center'>
 <img src="figures/concept.jpeg" alt="concept" width="300"/>
 
 ## Introduction
 This repository contains the implementation of [our paper](https://arxiv.org/abs/2209.09483).
-
 
 ## Installation
 The code has been tested with Ubuntu 16.04.6, python 3.7, CUDA 11.1.1
@@ -22,7 +20,7 @@ conda activate diffusion_unit
 Install libraries:
 ```
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-conda install -c anaconda h5py pyyaml -y
+conda install -c h5py pyyaml -y
 conda install -c conda-forge sharedarray tensorboardx -y
 pip install numpy --upgrade
 ```
@@ -42,6 +40,9 @@ sh start_training.sh
 ### Testing
 sh predict.sh
 
+## Pretrained model and test log
+The pretrained model and test log of scene segmentation is available [here](https://staff.aist.go.jp/xin.liu/files/DU/s3dis.zip). 
+
 ## Citation
 If you find our work useful, please consider citing:
 ```
@@ -56,4 +57,4 @@ If you find our work useful, please consider citing:
 Our code is released under MIT License (see LICENSE file for details).
 
 ## Acknowledgment
-This repo is based on/inspired by the great works of [Point Transformer](https://github.com/POSTECH-CVLab/point-transformer) and [KPConv](https://github.com/POSTECH-CVLab/point-transformer)
+This repo is based on/inspired by the great works of [Point Transformer](https://github.com/POSTECH-CVLab/point-transformer), [KPConv](https://github.com/POSTECH-CVLab/point-transformer), and [dgcnn.pytorch](https://github.com/antao97/dgcnn.pytorch).
