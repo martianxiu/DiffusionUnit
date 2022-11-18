@@ -40,7 +40,7 @@ sh start_training.sh
 ### Testing
 sh predict.sh
 
-## Pretrained model and test log
+### Pretrained model and test log
 The pretrained model and test log of scene segmentation is available [here](https://staff.aist.go.jp/xin.liu/files/DU/s3dis.zip). 
 
 ## Citation
