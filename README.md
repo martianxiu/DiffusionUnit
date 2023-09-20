@@ -1,6 +1,9 @@
 # Interpretable Edge Enhancement and Suppression Learning for 3D Point Cloud Segmentation
 Created by: Haoyi Xiu, Xin Liu, Weimin Wang, Kyoung-Sook Kim, Takayuki Shinohara, Qiong Chang, and Masashi Matsuoka
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/interpretable-edge-enhancement-and/3d-part-segmentation-on-shapenet-part)](https://paperswithcode.com/sota/3d-part-segmentation-on-shapenet-part?p=interpretable-edge-enhancement-and)  
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/interpretable-edge-enhancement-and/semantic-segmentation-on-s3dis-area5)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis-area5?p=interpretable-edge-enhancement-and)
+
 <!-- ![concept](figures/concept.jpeg) -->
 <p align='center'>
 <img src="figures/concept.jpeg" alt="concept" width="300"/>
