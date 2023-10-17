@@ -52,11 +52,13 @@ The pretrained model and test log of scene segmentation are available [here](htt
 ## Citation
 If you find our work useful, please consider citing:
 ```
-@article{xiu2022interpretable,
-  title={Interpretable Edge Enhancement and Suppression Learning for 3D Point Cloud Segmentation},
+@article{xiu2023diffusion,
+  title={Diffusion unit: Interpretable edge enhancement and suppression learning for 3D point cloud segmentation},
   author={Xiu, Haoyi and Liu, Xin and Wang, Weimin and Kim, Kyoung-Sook and Shinohara, Takayuki and Chang, Qiong and Matsuoka, Masashi},
-  journal={arXiv preprint arXiv:2209.09483},
-  year={2022}
+  journal={Neurocomputing},
+  pages={126780},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 ## License
