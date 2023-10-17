@@ -1,4 +1,4 @@
-# Interpretable Edge Enhancement and Suppression Learning for 3D Point Cloud Segmentation
+# Diffusion Unit: Interpretable Edge Enhancement and Suppression Learning for 3D Point Cloud Segmentation
 Created by: Haoyi Xiu, Xin Liu, Weimin Wang, Kyoung-Sook Kim, Takayuki Shinohara, Qiong Chang, and Masashi Matsuoka
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/interpretable-edge-enhancement-and/3d-part-segmentation-on-shapenet-part)](https://paperswithcode.com/sota/3d-part-segmentation-on-shapenet-part?p=interpretable-edge-enhancement-and)  
