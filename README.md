@@ -8,8 +8,11 @@ Created by: Haoyi Xiu, Xin Liu, Weimin Wang, Kyoung-Sook Kim, Takayuki Shinohara
 <p align='center'>
 <img src="figures/concept.jpeg" alt="concept" width="300"/>
 
-## Introduction
-This repository contains the implementation of [our paper](https://arxiv.org/abs/2209.09483).
+## Abstract
+3D point clouds are discrete samples of continuous surfaces which can be used for various applications. However, the lack of true connectivity information, i.e., edge information, makes point cloud recognition challenging. Recent edge-aware methods incorporate edge modeling into network designs to better describe local structures. Although these methods show that incorporating edge information is beneficial, how edge information helps remains unclear, making it difficult for users to analyze its usefulness. To shed light on this issue, in this study, we propose a new algorithm called Diffusion Unit (DU) that handles edge information in a principled and interpretable manner while providing decent improvement. First, we theoretically show that DU learns to perform task-beneficial edge enhancement and suppression. Second, we experimentally observe and verify the edge enhancement and suppression behavior. Third, we empirically demonstrate that this behavior contributes to performance improvement. Extensive experiments and analyses performed on challenging benchmarks verify the effectiveness of DU. Specifically, our method achieves state-of-the-art performance in object part segmentation using ShapeNet part and scene segmentation using S3DIS. 
+
+## Paper
+You can download our paper from [arXiv](https://arxiv.org/abs/2209.09483) or [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231223009037). 
 
 ## Installation
 The code has been tested with Ubuntu 16.04.6, python 3.7, CUDA 11.1.1
