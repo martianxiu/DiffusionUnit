@@ -26,7 +26,7 @@ conda activate diffusion_unit
 Install libraries:
 ```
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-conda install -c h5py pyyaml -y
+conda install -c anaconda h5py pyyaml -y
 conda install -c conda-forge sharedarray tensorboardx -y
 pip install numpy --upgrade
 ```
