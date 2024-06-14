@@ -1,0 +1,72 @@
+DATA:
+  data_name: shapenet 
+  d_in_initial: 3 
+  d_out_initial: 64
+  num_classes: 50 
+  strides: [2, 4, 4, 2]
+  nsample_conv: 16 
+  nsample: 16 
+  data_root: 'data/shapenetcore_partanno_segmentation_benchmark_v0_normal'
+
+Model:
+  architecture: [
+    'simple',
+    'residual',
+    'downsample',
+    'residual',
+    'residual',
+    'downsample',
+    'residual',
+    'residual',
+    'downsample',
+    'residual',
+    'residual',
+    'downsample',
+    'residual',
+    'residual',
+    'upsample',
+    'robust_laplacian_unit',
+    'upsample',
+    'robust_laplacian_unit',
+    'upsample',
+    'robust_laplacian_unit',
+    'upsample',
+    'robust_laplacian_unit',
+  ]
+
+  convolution: 'dw_kpconv'
+  decoder_out_dim: 64 
+  bottleneck_ratio: 2 
+
+TRAIN:
+  arch: 'partseg_net_one_hot' 
+  aug: 'scale_shift'
+  use_xyz: True
+  sync_bn: False
+  ignore_label: 255
+  train_gpu: [0]
+  workers: 10 
+  batch_size: 16
+  batch_size_val: 16 
+  base_lr: 0.1 
+  epochs: 150 
+  start_epoch: 0
+  step_epoch: 30
+  multiplier: 0.1
+  momentum: 0.9
+  weight_decay: 0.0001
+  drop_rate: 0.5
+  manual_seed: 
+  print_freq: 30 
+  save_freq: 1
+  save_path:
+  weight:  # path to initial weight (default: none)
+  resume:  # path to latest checkpoint (default: none)
+  evaluate: True  # evaluate on validation set, extra gpu memory needed and small batch_size_val is recommend
+  eval_freq: 1
+Distributed:
+  dist_url: tcp://localhost:8888
+  dist_backend: 'nccl'
+  multiprocessing_distributed: False 
+  world_size: 1
+  rank: 0
