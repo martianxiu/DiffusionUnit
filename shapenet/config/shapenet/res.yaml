@@ -25,13 +25,13 @@ Model:
     'residual',
     'residual',
     'upsample',
-    'robust_laplacian_unit',
+    'diffusion_unit',
     'upsample',
-    'robust_laplacian_unit',
+    'diffusion_unit',
     'upsample',
-    'robust_laplacian_unit',
+    'diffusion_unit',
     'upsample',
-    'robust_laplacian_unit',
+    'diffusion_unit',
   ]
 
   convolution: 'dw_kpconv'
